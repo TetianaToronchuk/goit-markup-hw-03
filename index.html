@@ -23,13 +23,13 @@
 <body>
 <header class="header">
 
-  <div class="conteiner">
+  <div class="conteiner header-conteiner conteiner-logo">
     <nav class="header-nav">
       
       <a class="logo header-logo" href="./index.html"> Web<span class="logo-part">Studio</span></a>
      
       <ul class="header-menu">
-        <div class="conteiner-menu">
+      <div class="container-menu">
         <li class="header-menu-item"><a class="header-menu-link" href="./index.html">Studio</a> </li>
         <li class="header-menu-item"><a class="header-menu-link" href="">Portfolio</a></li>
         <li class="header-menu-item"><a class="header-menu-link" href="">Contacts</a></li>
@@ -40,14 +40,17 @@
     <address class="contacts">
       
       <ul class="contacts-list">
-        <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <div class="container-contacts">
+        <li class="contacts-item"><a class="contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contacts-item"><a class="contacts-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      </div>
       </ul>
     </address>
   </div>
   </header>
 
   <main>
+
     <section class="hero-section">
       <div class="container">
       <h1 class="hero-title">Effective Solutions for Your Business</h1>
@@ -108,9 +111,10 @@
     </section>
 
     <section class="portfolio-section">
-      <div class="container">
+      <div class="container conteiner-narrow conteiner-item">
       <h2 class="section-title">Our Portfolio</h2>
       <ul class="portfolio-list">
+        <div class="container-portfolio-list">
         <li class="portfolio-item">
           <img src="./images/bankingapp.jpg" alt="Banking App preview" width="360" height="300" />
           <h3 class="card-title">Banking App</h3>
@@ -141,6 +145,7 @@
           <h3 class="card-title">Online Courses</h3>
           <p class="card-text">Marketing</p>
         </li>
+      </div>
       </ul>
     </div>
     </section>
