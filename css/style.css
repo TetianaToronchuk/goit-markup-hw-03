@@ -44,11 +44,12 @@ a {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-conteiner {
+.container .header-conteiner {
 display: flex;
 justify-content: space-between;
 align-items: center; 
-padding: 0 15px;
+padding-top: 24px;
+padding-bottom: 24px;
 gap: 40px;
 margin: 0 auto;
 }
@@ -291,7 +292,7 @@ line-height: 1.11;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  width: calc((100% - 72px)/4);
+  flex-basis: calc((100% - 72px)/4);
 }
 
 .conteiner-card .card-mark {
@@ -303,7 +304,7 @@ line-height: 1.11;
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  width: calc((100% - 72px)/4);
+  flex-basis: calc((100% - 72px)/4);
 }
 
 .conteiner-card .card-mark .team-name {
@@ -333,7 +334,7 @@ line-height: 1.11;
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  width: calc((100% - 72px)/4);
+  flex-basis: calc((100% - 72px)/4);
 }
 
 .conteiner-card .card-tom .team-name {
@@ -362,7 +363,8 @@ line-height: 1.11;
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  width: calc((100% - 72px)/4);
+  flex-basis:calc((100% - 72px)/4);
+  
 }
 
 .conteiner-card .card-camila .team-name {
@@ -393,7 +395,7 @@ background-color: #FFFFFF;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   margin-right: 0;
-  width: calc((100% - 72px)/4);
+  flex-basis: calc((100% - 72px)/4);
 }
 
 .conteiner-card .card-dani .team-name {
