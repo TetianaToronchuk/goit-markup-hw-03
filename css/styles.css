@@ -3,7 +3,7 @@
 }
 
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 body {
@@ -62,7 +62,6 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -109,9 +108,7 @@ ul {
 }
 
 .nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
+.nav-link:focus {
     color: #404bbf;
 }
 
@@ -131,6 +128,11 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
 }
 
 .hero-section {
@@ -199,17 +201,28 @@ ul {
     color: #434455;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .section-title {
     font-size: 36px;
     line-height: 1.11;
+    font-weight: 700;
+    margin-bottom: 72px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    font-weight: 700;
-    margin-bottom: 72px;
 }
-
 .team-section {
     background-color: #f4f4fd;
     padding-top: 120px;
@@ -291,6 +304,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    /* ✅ відступ до параграфа */
 }
 
 .card-text {
@@ -300,6 +314,7 @@ ul {
     color: #434455;
 }
 
+/* Footer DONZO */
 .page-footer {
     background-color: #2e2f42;
     padding: 100px 0;
@@ -322,7 +337,10 @@ ul {
 }
 
 .footer-text {
-    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #fff;
 }
