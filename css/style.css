@@ -2,7 +2,7 @@
   --footer-color: #f4f4fd;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
@@ -21,13 +21,13 @@
   padding: 0;
 }
 
-.ul {
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.a {
+a {
   text-decoration: none;
 }
 img {
