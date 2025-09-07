@@ -2,14 +2,14 @@
   --footer-color: #f4f4fd;
 }
 
-body {
+.body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
 /* reset */
 
- h1,
+. h1,
  h2,
  h3,
  h4,
@@ -21,17 +21,17 @@ body {
   padding: 0;
 }
 
-ul {
+.ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-a {
+.a {
   text-decoration: none;
 }
 
-img {
+.img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -73,6 +73,9 @@ img {
 }
 
 .header .container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
@@ -131,7 +134,7 @@ img {
 
 .contacts-list {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 40px;
 }
 
@@ -148,6 +151,7 @@ img {
 /* SECTION-1 */
 .hero-section {
 background-color: #2e2f42;
+padding: 188px 0;
 }
 
 .hero-title {
@@ -157,10 +161,10 @@ background-color: #2e2f42;
   color: #fff;
   max-width: 496px;
   margin: 0 auto 48px;
-}
+} 
 
-.hero-btn {
-  display: inline-block;
+.hero-btn .container{
+  display: block;
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
@@ -184,6 +188,7 @@ background-color: #404bbf;
 /* SECTION-2 */
 .features-section {
   background-color: #fff;
+  padding: 120px 0;
 }
 
   .visually-hidden {
@@ -201,11 +206,10 @@ background-color: #404bbf;
 
 .features-list {
   display: flex;
-  gap: 24px;;
+  gap: 24px;
 }
 .features-item {
-  flex-basis: calc((
-    100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .features-subtitle {
  font-weight: 500;
@@ -249,7 +253,7 @@ SECTION-3 */
   border-radius: 4px;
   text-align: center;
 }
-.team-card img {
+.img {
   width: 100%;
   display: block;
   object-fit: cover;
